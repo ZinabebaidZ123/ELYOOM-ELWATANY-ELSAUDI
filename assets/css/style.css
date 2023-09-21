@@ -1,0 +1,1154 @@
+/* You can add global styles to this file, and also import other style files */
+/* global style------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&family=Tajawal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Inter&family=Readex+Pro&family=Tajawal:wght@700&display=swap');
+:root{
+    --primary-color: #00A991;
+    --text-color:  #8E98A8;
+    --alt-color: #007F6D;
+
+
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+}
+body{
+    direction: rtl;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Tajawal', sans-serif;
+
+}
+h2{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size:2.75rem;
+}
+@media(max-width:992px){
+    h2{
+        font-size: 2.25rem;
+    }
+}
+section{
+    padding-top: 3rem;
+    /* margin-top: 6rem; */
+}
+.container {
+    width: 95% !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow: hidden !important;
+  }
+  .over-lay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  }
+@media(max-width:992px){
+    section{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media (min-width:300px) {
+    html{
+          font-size: 11px;
+    }
+    img{
+        width: 70%;
+    }
+   
+}
+@media (min-width:567px) {
+    html{
+          font-size: 13px;
+    }
+    img{
+        width: 75%;
+    }
+   
+}
+.audio button
+{
+    position: fixed !important;
+    top: 45% !important;
+    /* left: 5rem; */
+    left: 4rem !important;
+    z-index: 6666;
+ 
+}
+@media(max-width:992px){
+    .audio button{
+        top:55%;
+    }
+}
+.audio button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.audio  i{
+    font-size: 3.5rem;
+    color: var(--alt-color);
+    font-weight: 700;
+    
+}
+
+
+
+/* start navbar section ---------------------------- */
+/* start navbar style -------------------------------- */
+.navbar {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: rgba(35, 189, 155, 0.747);
+    
+    z-index: 99999999999;
+    color: #fff !important;
+}
+.navbar a{
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 1.25rem ;
+    margin: 0 1rem;
+}
+ .navbar-toggler-icon {
+  color: #fff !important;
+  font-size: 2rem !important;
+  margin-top: 0.75rem;
+
+}
+.navbar-toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .navbar-brand img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.dropdown-menu{
+    background-color: var(--primary-color);
+    padding-right: 0 !important;
+}
+.dropdown-menu .dropdown-item{
+   background-color: transparent !important;
+   color :#fff !important;
+   text-align: center;
+   margin-right: 0 !important;
+}
+/* start baner for landing-page ------------------- */
+/* start banner section style ---------------- */
+.banner{
+  
+ 
+    margin-top: 5rem;
+  
+    background-color: rgb(252, 244, 244);
+}
+
+
+.banner .banner-content span{
+    color: var(--alt-color);
+}
+@media(max-width:992px){
+    .banner{
+        background-size: 100% 100%;
+        width: 100%;
+        background-position:  right ;
+    
+        /* height: 60vh; */
+    }
+ 
+}
+.banner .slide{
+    position: relative;
+    z-index: 44;
+    height: 100vh;
+    padding-top: 3rem;
+
+}
+
+.banner .slide h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.banner .slide h1 span{
+    color: var(--primary-color);
+}
+.banner .container{
+    width: 100% !important;
+}
+.banner .slide .row{
+    justify-content:space-between;
+}
+.banner .slide .content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    margin: 2rem 1rem;
+}
+
+@media(max-width:992px){
+    .banner{
+        /* height: 80vh; */
+        margin-top: 6rem;
+       
+    }
+    .banner .row{
+        flex-direction: column-reverse;
+    }
+   
+    .banner .slide .row{
+        /* background-color: aqua; */
+        padding: 2rem 1rem;
+        height: 100%;
+    }
+    .banner .banner-content{
+        padding: 2rem;
+    }
+    
+}
+/* start first saudia-section ------------------------- */
+/* start first-saudia section ------------------------------ */
+.first-saudia img{
+    width: 6rem;
+}
+.first-saudia .first-saudia-content h2{
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+}
+
+.first-saudia .first-saudia-content{
+    padding-left: 1rem;
+}
+.first-saudia .first-saudia-content p{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+/* start sec-saudia-section --------------------- */
+/* start sec saudia style --------- */
+.sec-saudia{
+ 
+    position: relative;
+}
+.sec-saudia .all-content{
+    background-color: var(--alt-color);
+}
+
+.sec-saudia h2{
+    color: #fff;
+    border-right: 0.5rem solid #fff;
+    border-radius: 0.5rem ;
+    padding-right: 0.5rem;
+}
+.sec-saudia p{
+    color: #B0E4DD;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+/* start third-saudia-section ---------------------- */
+.third-saudia h2{
+    color: var(--primary-color);
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding-right: 0.5rem;
+}
+.third-saudia p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+.third-saudia-img{
+    position: relative;
+}
+.third-saudia-img .layer{
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    
+    top: 0;
+}
+.third-saudia-img .layer img{
+    height: 80%;
+}
+@media(max-width:992px){
+    .third-saudia-img .layer{
+        display: none;
+    }
+}
+/* start altassees-day page ------------------------ */
+/* start banner-section -------------------------------------- */
+.altaasees-banner{
+    height: 100vh;
+   
+    background-image: url('../images/taasees-banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.altaasees-banner .layer{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100px;
+    height:100% ;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.7);
+ }
+.altaasees-banner .banner-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 22;
+}
+.altaasees-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    
+}
+.altaasees-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+@media(max-width:992px){
+    .altaasees-banner{
+       background-position: top;
+       background-size:100% 100% ;
+       height: 60vh;
+    }
+    .altaasees-banner .banner-content{
+        width: 80%;
+        height: 70vh;
+        align-items: center;
+    }
+    .altaasees-banner h2{
+        font-size: 2.5rem;
+    }
+    .altaasees-banner p{
+        font-size: 2rem;
+    }
+}
+/* start slider section -------------------------------- */
+.slider {
+    position: relative;
+}
+.slider .layer{
+    position: absolute;
+    top: -2rem;
+    right: 0;
+ 
+}
+.slider .layer  img{
+    width: 8rem;
+    height: 3rem;
+}
+/* start about-taasees-section ------------------------- */
+.about-taasees-day h2{
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+    
+}
+.about-taasees-day p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 3rem 0;
+}
+.about-taasees-day img{
+    width: 6rem;
+}
+@media(max-width:992px){
+  .about-taasees-day  .title{
+        width: 90% !important;
+    }
+}
+/* start alsaudia-est-section ------------------------- */
+.establishment{
+    position: relative;
+}
+.establishment .layer{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -1;
+}
+
+.establishment .layer img{
+    width: 8rem;
+}
+.establishment h2{
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+}
+.establishment p{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.establishment .establishment-img {
+    position: relative;
+    z-index: 88;
+}
+.establishment .layer2{
+    position: absolute;
+    left: -5rem;
+    top: 20%;
+
+
+}
+.establishment .layer2 img{
+    width: 8rem;
+
+}
+/* start alyoum-alwatany-banner ----------------------- */
+.alyoum-alwatany-banner{
+    height: 100vh;
+    background-image: url('../images/banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alyoum-alwatany-banner .layer{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100px;
+    height:100% ;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.7);
+ }
+.alyoum-alwatany-banner .banner-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 44;
+}
+.alyoum-alwatany-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    
+}
+.alyoum-alwatany-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+@media(max-width:992px){
+    .alyoum-alwatany-banner{
+       background-position: top;
+       background-size:100% 100% ;
+       height: 70vh;
+    }
+    .alyoum-alwatany-banner .banner-content{
+        width: 80%;
+        height: 70vh;
+    }
+    .alyoum-alwatany-banner h2{
+        font-size: 2.5rem;
+    }
+    .alyoum-alwatany-banner p{
+        font-size: 2rem;
+    }}
+/* start slider-section                   */
+.alyoum-alwatany-slider {
+    position: relative;
+}
+.alyoum-alwatany-slider .layer img{
+    width: 10rem;
+    position: absolute;
+    top: -2rem;
+}
+/* start about-national-day ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Inter&family=Readex+Pro&family=Tajawal:wght@700&display=swap');
+
+.about-national-day h3{
+    font-family: 'Gulzar', serif;
+    color: var(--text-color);
+    font-size: 4.125rem;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.about-national-day p{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.about-national-day-img{
+    position: relative;
+}
+.about-national-day-img .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.about-national-day-img .layer img{
+    width: 8rem;
+}
+
+/* start vision page --------------------------------- */
+.vision-banner{
+    height: 100vh;
+    background-image: url('../images/vession-banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.vision-banner .layer{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100px;
+    height:100% ;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.7);
+ }
+
+.vision-banner .banner-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 999;
+}
+.vision-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    
+}
+.vision-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+@media(max-width:992px){
+    .vision-banner{
+       background-position: bottom;
+       height: 70vh;
+      
+    }
+    .vision-banner .banner-content{
+        width: 80%;
+        height: 70vh;
+    }
+    .vision-banner h2{
+        font-size: 2.5rem;
+    }
+    .vision-banner p{
+        font-size: 2rem;
+    }}
+/* start vision-slider ---------------------------- */
+.vision-slider .container  {
+    position: relative;
+    z-index: 88;
+}
+.vision-slider .logo{
+ position: absolute;
+ top: 0;
+ right: 4rem;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ padding-right: 1rem;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+
+.logo img{
+    width: 18rem;
+    height: 18rem;
+}
+@media(max-width:992px){
+    .slider .logo{
+        right: 2rem;
+    }
+    .logo img{
+        width: 7rem;
+        height: 7rem;
+    }
+}
+    /* start about-vision-section ----------------- */
+    .about-vision  h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        margin-bottom: 3rem;
+        display: inline-block;
+        
+    }
+    .about-vision p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+
+    /* start vision-projects --------------- */
+    .vision-projects  h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        
+    }
+    .vision-projects p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+
+    /* start gmal-discovery-section ----- */
+    .discovery {
+        background-color: var(--primary-color);
+        padding-bottom: 2rem;
+    }
+    
+    .discovery h2{
+        border-right: 0.5rem solid #E6F6F4 ;
+        border-radius: 0.5rem ;
+        color: #E6F6F4;
+        padding-right: 0.5rem;
+        
+    }
+   .discovery  p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: #E6F6F4;
+        
+    }
+    .discovery .col-lg-5 .vision-logo{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* start roshen-section --------------- */
+   .roshen-section h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        display: inline-block;
+        
+    }
+    .other-info h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        display: inline-block;
+        
+    }
+    .roshen-section p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+
+    .other-info p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+
+    /* start other-discovery-section ------------------------- */
+    .other-discovery h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        display: inline-block;
+    }
+    .other-discovery p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--text-color);
+    }
+  
+/* start nora-brother-banner section -------------- */
+.nora-brother-banner{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nora-brother-banner .banner-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 44;
+}
+.nora-brother-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    
+}
+.nora-brother-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+
+}
+
+@media(max-width:992px){
+    .nora-brother-banner{
+       background-position: top;
+       background-size:100% 100% ;
+    }
+    .nora-brother-banner .banner-content{
+        width: 80%;
+    }
+    .nora-brother-banner h2{
+        font-size: 2.5rem;
+    }
+    .nora-brother-banner p{
+        font-size: 2rem;
+    }}
+
+    @media(max-width:992px){
+       .nora-brother-banner .row {
+        flex-direction: column-reverse;
+       }
+     .nora-brother-banner  .col-lg-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1.25rem;
+       }
+    }
+
+    /* start about-nora-brother ------------------- */
+   .about-nora-brothr h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        
+    }
+    .other-inf h2{
+        border-right: 0.5rem solid var(--primary-color);
+        border-radius: 0.5rem ;
+        color: var(--primary-color);
+        padding-right: 0.5rem;
+        
+    }
+    .about-nora-brothr 
+     p{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.7;
+        color: var(--text-color);
+    }
+    .other-inf p{
+       font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.7;
+        color: var(--text-color);
+        
+    }
+    
+/* start ach-banner-section------------------------------------ */
+.ach-banner{
+    height: 80vh;
+    background-image: url('../images/ach-banner-img2\ \ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: 11; */
+}
+.ach-banner .layer{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100% ;
+    z-index: 5;
+    background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
+ }
+ .other-banner-img{
+    height: 75vh;
+    background-image: url('../images/ach-banner-img2\ \ \(2\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+ }
+ .ach-banner .banner-content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 44;
+}
+.ach-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    
+}
+.ach-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+
+}
+@media(max-width:992px){
+    .ach-banner{
+        background-position: center;
+        background-size: 100% 100%;
+        height: 60vh;
+        
+    }
+    .ach-banner .banner-content{
+        width: 80%;
+    
+    }
+    .other-banner-img{
+        background-size: contain;
+        height: 20vh;
+    }
+}
+/* start about-ach-section ------------------------ */
+.about-ach{
+    position: relative;
+}
+.about-ach p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+.about-ach .bg img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10rem;
+    
+}
+@media(max-width:992px){
+   .about-ach .about-ach-content{
+    width: 80% !important;
+   }
+}
+/* start our-ach-section --------------------------- */
+.our-ach h2{
+    font-family: 'Gulzar', serif;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+
+}
+.our-ach .col-lg-5{
+    margin-bottom: 2rem !important;
+}
+.our-ach .col-lg-5 h2 {
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    font-family: 'Tajawal', sans-serif;
+}
+.our-ach .col-lg-5 p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+.our-ach2 {
+    position: relative;
+}
+.our-ach2 .bg img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10rem;
+    
+}
+/* start centered-text ------------------------------- */
+.centered-content h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+.centered-content p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+/* start our-ach-3----------------- */
+.our-ach .img {
+    background: linear-gradient(180deg, #8E98A8 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(180deg, #8E98A8 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 1rem;
+    padding: 1.5rem !important;
+}
+.our-ach .img img {
+    border-radius: 0.5rem;
+}
+.about-impr   .img {
+    background: linear-gradient(180deg, #8E98A8 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(180deg, #8E98A8 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 1rem;
+    padding: 1.5rem !important;
+    margin-bottom: 2rem;
+}
+.about-impr .img img {
+    border-radius: 0.5rem;
+}
+/* start impr-banner-section ---------------------------- */
+/* start impr-banner-section ---------------------- */
+.impr-banner{
+    height: 80vh;
+    background-image: url('../images/impr-banner-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.impr-banner .banner-content{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 55;
+}
+.impr-banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+}
+.impr-banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    /* color: var(--text-color); */
+}
+@media(max-width:992px){
+    .impr-banner .banner-content{
+        width: 80%;
+    }
+}
+/* start impr-slider ------------------------------ */
+.impr-slider .bg{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.impr-slider .bg img{
+    width: 10rem;
+}
+.impr-slider .img{
+    position: relative;
+}
+/* start impr-bg-section --------------------------------- */
+.impr-bg p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+/* start soluman-univ section ---------------------- */
+.soluman-univ h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+.soluman-univ p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+/* start about-impr-section ------------------- */
+.about-impr h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+}
+.about-impr p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+/* start other-impr-info-section -------------------------- */
+.other-impr-info h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--alt-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+.other-info .row{
+    justify-content: space-between !important;
+    
+}
+.other-impr-info p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+
+.impr-slider .img  , .alyoum-alwatany-slider .img{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .impr-slider .img video  , .alyoum-alwatany-slider .img video{
+    border-radius: 0.5rem;
+    width: 70% !important;
+}
+@media(max-width:992px){
+    .impr-slider .img video  , .alyoum-alwatany-slider .img video{
+        border-radius: 0.5rem;
+        width: 100% !important;
+    }
+}
+/* start footer section ---------------------- */
+
+footer{
+    font-family: 'Gulzar', serif;
+}
+
+
+footer .layer{
+    width: 10rem;
+    margin-top: 3rem;
+}
+footer .layer img{
+    width: 100%;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer .footer-content p{
+    color: var(--text-color);
+    font-size: 4.125rem;
+    line-height: 1.7;
+    font-family: 'Gulzar', serif;
+}
+footer h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+}
+footer ul{
+    list-style: none;
+    width: 50%;
+}
+footer ul li{
+    font-family: 'Gulzar', serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    color: var(--text-color);
+}
+.footer-img{
+    position: relative;
+}
+footer img{
+    width: 100%;
+}
+footer .bg-img{
+   position: relative;
+   top: 2rem;
+   z-index: -1;
+}
+@media(max-width:992px){
+    footer ul{
+        list-style: none;
+        width: 100%;
+        /* justify-content: center !important; */
+      
+    }
+    footer ul li{
+   
+        font-size: 1.25rem;
+       
+    }
+}
